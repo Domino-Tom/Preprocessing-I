@@ -7,6 +7,7 @@
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +15,31 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+
+    <!-- Image and Tagline-->
+    <header>
+      <div class="header-img">
+        <img src="img/20200106_204742(1).jpg" alt="">
+      </div>
+      <div class="tagline">
+        <h1>Steven Maynard</h1>
+        <sub>Front-End Web Developer</sub> 
+      </div>
+    </header>
+
+
+  </div>
+
+  <!-- Menu -->
+  <input type="checkbox" id="menu" checked>
+  <nav class="mobile-nav">
+    <a href="#">Portfolio</a>
+    <a href="#">Github</a>
+    <a href="#">Linkdin</a>
+    <a href="#">Twitter</a>
+  </nav>
+  <label  class="menu-button" for="menu">Menu</label>
+  
 </body>
 </html>
